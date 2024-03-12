@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AllRecipes from './screens/AllRecipes';
 
 function App() {
   return (
     <div className="App">
-     <h1>hi this is tastebud</h1>
+    <AllRecipes/>
     </div>
-  );
+  ); 
 }
 
 export default App;
